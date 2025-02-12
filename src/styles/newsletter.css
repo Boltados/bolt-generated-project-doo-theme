@@ -1,0 +1,38 @@
+.newsletter {
+  background: var(--primary-color);
+  color: white;
+  padding: 4rem 0;
+  margin-top: 4rem;
+}
+
+.newsletter-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.newsletter-form button {
+  padding: 0.75rem 2rem;
+  background: #1a4731;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.newsletter small {
+  opacity: 0.8;
+}

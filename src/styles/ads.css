@@ -1,0 +1,29 @@
+.ad-space {
+  background: #f9fafb;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.ad-label {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+  padding: 0.25rem;
+  background: #f3f4f6;
+}
+
+.ad-content {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-space-sidebar {
+  min-height: 300px;
+}
+
+.ad-space-banner {
+  min-height: 90px;
+}

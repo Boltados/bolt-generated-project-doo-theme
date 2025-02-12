@@ -1,0 +1,43 @@
+/*
+Theme Name: Doorillio
+Theme URI: https://doorillio.com
+Author: Your Name
+Author URI: https://yoursite.com
+Description: A modern health and wellness WordPress theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: doorillio
+*/
+
+:root {
+  --primary-color: #22c55e;
+  --text-color: #1f2937;
+  --bg-color: #ffffff;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  color: var(--text-color);
+  background: var(--bg-color);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Import all component styles */
+@import 'assets/css/header.css';
+@import 'assets/css/hero.css';
+@import 'assets/css/categories.css';
+@import 'assets/css/featured-article.css';
+@import 'assets/css/latest-articles.css';
+@import 'assets/css/trending-now.css';
+@import 'assets/css/popular-topics.css';
+@import 'assets/css/newsletter.css';
+@import 'assets/css/footer.css';
+@import 'assets/css/animations.css';
